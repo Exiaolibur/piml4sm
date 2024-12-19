@@ -12,7 +12,7 @@ from data_generator import generate_data
 def main():
 
     # 加载配置文件
-    with open("config.yaml", "r") as file:
+    with open("./cfg/config.yaml", "r") as file:
         config = yaml.safe_load(file)
 
     # 读取模型参数
